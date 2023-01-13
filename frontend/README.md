@@ -7,33 +7,27 @@
 
 ## Step 1
 
-```shell
-git clone https://github.com/coderaidershaun/qwik-crash-intro.git frontend
-```
+Add your SUPABASE credentials to frontend/src/utils/supabase.ts
 
 ## Step 2
-
-Add your SUPABASE details to src/utils/supabase.ts
-
-## Step 3
 
 ```shell
 cd frontend
 ```
 
-## Step 4
+## Step 3
 
 ```shell
 npm ci
 ```
 
-## Step 5
+## Step 4
 
 ```shell
 npm run build
 ```
 
-## Step 6
+## Step 5
 
 ```shell
 npm run dev
