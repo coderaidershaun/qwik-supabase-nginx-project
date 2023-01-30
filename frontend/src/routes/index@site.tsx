@@ -1,17 +1,20 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Link } from "@builder.io/qwik-city";
+// import { Link } from "@builder.io/qwik-city";
 import { Hero } from "~/components/site/hero/hero";
-import { ButtonAction } from "~/components/ui/button-action";
+// import { ButtonAction } from "~/components/ui/button-action";
 
 export default component$(() => {
   return (
     <>
       <Hero />
       <div class="flex justify-center py-12 w-full">
-        <Link href="/members/dashboard">
+        {/* <Link href="/members/dashboard">
+
           <ButtonAction label="Dashboard" />
-        </Link>
+        </Link> */}
+
+        <a href="/members/dashboard">DASHBOARD</a>
       </div>
     </>
   );
